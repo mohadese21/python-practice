@@ -9,7 +9,7 @@ for move in moves:
 
 for user in users:
     if user=="mohadese":
-       print(f"welcome {user}! full access granted.  ")
+       print(f"welcome {user}! full access granted.")
     else:
         print(f"hello {user}! you are logged in as a guest.")
 
