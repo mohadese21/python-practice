@@ -3,15 +3,15 @@ print("Hello, GitHub!")
 moves = ["warm up", "step", "spin"]
 
 for move in moves:
-    print("practice:", move)
+    print("Practice:", move)
     
     users = ["mohadese", "ali", "sara"]
 
 for user in users:
     if user=="mohadese":
-       print(f"welcome {user}! full access granted.")
+       print(f"Welcome {user}! full access granted.")
     else:
-        print(f"hello {user}! you are logged in as a guest.")
+        print(f"Hello {user}! you are logged in as a guest.")
 
 class User:
     def __init__(self, username, role):
