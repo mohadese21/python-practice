@@ -23,3 +23,26 @@ user2 = User("ali", "guest")
 
 print(f"User: {user1.username} | Role:{user1.role}")
 print(f"User: {user2.username} | Role: {user2.role}")
+
+class DanceSession:
+
+  def __init__(self, style, duration_min): 
+     self.style = style
+     self.duration_min = duration_min
+
+  def summary(self):
+    return f"Style: {self.style} ({self.duration_min} min)"
+
+
+class SoloRoutine(DanceSession):
+
+  def __init__(self, style, duration_min, bpm):
+     super() .__init__(style, duration_min)
+     self.bpm = bpm
+
+  def tempo_info(self):
+    return f"Tempo: {self.bpm} BPM"
+
+session1 = SoloRoutine("Hip_Hop", 15, 105)
+print(session1.summary())
+print(session1.tempo_info())
