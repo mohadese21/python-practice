@@ -9,9 +9,9 @@ for move in moves:
 
 for user in users:
     if user=="mohadese":
-       print(f"Welcome {user}! full access granted.")
+       print(f"Welcome {user}! Full access granted.")
     else:
-        print(f"Hello {user}! you are logged in as a guest.")
+        print(f"Hello {user}! You are logged in as a guest.")
 
 class User:
     def __init__(self, username, role):
