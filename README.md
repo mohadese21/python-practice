@@ -1,2 +1,4 @@
 # python-practice
-My daily Python learning exercises
+
+Step-by-step Python exercises covering loops, conditionals, classes, inheritance, and more...
+
